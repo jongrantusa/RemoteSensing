@@ -30,7 +30,7 @@ header {
 
 #map {
   flex: 10;
-  height: 100%;
+  height: 90vh;
   width: 100%;
 }
 
@@ -56,13 +56,6 @@ footer {
 
 footer p {
   margin: 0;
-}
-
-@media (max-width: 600px) {
-  main {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
 }
 
 img {
