@@ -9,8 +9,8 @@
   <body>
       <header>
         <div class="nav">
-          <img src="logoCAWIL.png" alt="Logo" />
-          <img src="nameCAWIL.png" alt="Name" />
+          <img src="./img/logoCAWIL.png" alt="Logo" />
+          <img src=".\img\nameCAWIL.png" alt="Name" />
         </div>
       </header>
 
@@ -286,7 +286,7 @@
       </div>
       <div id="map"></div>
       <div class="info-box" id="info-box">
-        <img src="Ship.jpg" alt="Vessel Image" id="vessel-image" />
+        <img src=".\img\shipImage.jpg" alt="Vessel Image" id="vessel-image" />
         <p id="vessel-info"></p>
       </div>
     </main>
@@ -444,7 +444,7 @@
           position: coordinates[0],
           map: googleMap,
           icon: {
-            url: "ship.png",
+            url: "./img/shipIcon.png",
             scaledSize: new google.maps.Size(32, 32), // Adjust this size to match your resized ship.png
           },
         });
