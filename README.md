@@ -9,6 +9,7 @@ This project aims to provide a comprehensive platform for monitoring and analyzi
 - [License](#license)
 
 ## Features
+
 - **Vessel Tracking:** Monitor the location and movement of vessels in different regions.
 
 - **Satellite Imagery Analysis:** Access and analyze satellite images for environmental monitoring.
@@ -28,22 +29,28 @@ This project aims to provide a comprehensive platform for monitoring and analyzi
 ## Usage
 
 1. **Upload CSV File:**
+
    - Click "Upload CSV File" to upload a CSV file.
 
 2. **Filters:**
+
    - Select a vessel from the dropdown menu and click "Apply Vessel Filter" to filter the displayed data.
 
 3. **Layers:**
+
    - Toggle different layers (Satellite Imagery, Vessel Tracking, Carbon Sink Estimation) using the buttons in the sidebar.
 
 4. **Locations:**
+
    - Switch between different regions (Caribbean, Mediterranean, South China Sea) using the location buttons.
 
 5. **Animation Controls:**
+
    - Adjust the speed of animations using the speed slider.
    - View the current time in the animation using the "Current Time" field.
 
 6. **Interactive Ship Info:**
+
    - Click on a ship to view detailed information about the vessel.
 
 7. **Download Ship Report:**

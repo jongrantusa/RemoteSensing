@@ -374,6 +374,7 @@
             });
           }
         }
+        
         document
           .getElementById("save-csv-button")
           .addEventListener("click", saveToCSV);
@@ -422,6 +423,30 @@
         });
         console.log(vesselPath);
       }
+      vesselSearch = document.querySelector("#vessel_select");
+      var when = "keyup"; //You can change this to keydown, keypress or change
+
+      vesselSearch.addEventListener("keyup", function (e) {
+          var text = e.target.value; 
+          var options = vesselSearch.options; 
+          for (var i = 0; i < options.length; i++) {
+              var option = options[i]; 
+              var optionText = option.text; 
+              var lowerOptionText = optionText.toLowerCase();
+              var lowerText = text.toLowerCase(); 
+              var regex = new RegExp("^" + text, "i");
+              var match = optionText.match(regex); 
+              var contains = lowerOptionText.indexOf(lowerText) != -1;
+
+              timeout = setTimeout(function() { if (match || contains) {
+                  option.selected = true;
+                  return;
+              }}, 1000);
+
+              clearTimeout(timeout);
+              vesselSearch.selectedIndex = 0; 
+          }
+      });
 
       function applyVesselFilter() {
         var selectedVessel = document.getElementById("vessel-select").value;
