@@ -9,7 +9,7 @@
   <body>
       <header>
         <div class="nav">
-          <img src="./img/logoCAWIL.png" alt="Logo" />
+          <img src=".\img\logoCAWIL.png" alt="Logo" />
           <img src=".\img\nameCAWIL.png" alt="Name" />
         </div>
       </header>
@@ -20,6 +20,7 @@
         <label for="vessel-select">Select Vessel:</label>
 
         <select id="vessel-select">
+          <option value="" disabled selected hidden>Upload CSV File...</option>
           <!-- Options will be populated dynamically -->
         </select>
 
@@ -409,6 +410,7 @@
           link.click(); // This will download the data file named "vessel_information.csv"
           document.body.removeChild(link);
         }
+        
         // Populate vessel dropdown
         var vesselSelect = document.getElementById("vessel-select");
         vesselSelect.innerHTML = "";
