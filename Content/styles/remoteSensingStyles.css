@@ -241,11 +241,12 @@ input[type="file"] {
   box-shadow: 0 1px 1px 5px rgba(0, 0, 0, 0.3);
   display: none;
   max-width: 300px;
+  height: auto;
   overflow-wrap: break-word;
 }
 
 .info-box img {
-  width: 100px;
+  width: 100%;
   height: auto;
 }
 
