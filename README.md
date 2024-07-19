@@ -34,7 +34,7 @@ This project aims to provide a comprehensive platform for monitoring and analyzi
 
 2. **Filters:**
 
-   - Select a vessel from the dropdown menu and click "Apply Vessel Filter" to filter the displayed data.
+   - Select or search a vessel from the dropdown menu and click "Apply Vessel Filter" to filter the displayed data.
 
 3. **Layers:**
 
