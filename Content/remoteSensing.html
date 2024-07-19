@@ -380,7 +380,7 @@
           .addEventListener("click", saveToCSV);
 
         function saveToCSV() {
-          // Assuming your infobox has an id or class, like "infobox"
+          // Call info box
           var infobox = document.getElementById("info-box");
           if (!infobox) {
             console.error("Infobox element not found!");
@@ -423,8 +423,9 @@
         });
         console.log(vesselPath);
       }
+
       vesselSearch = document.querySelector("#vessel_select");
-      var when = "keyup"; //You can change this to keydown, keypress or change
+      var when = "keyup"; 
 
       vesselSearch.addEventListener("keyup", function (e) {
           var text = e.target.value; 
