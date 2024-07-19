@@ -91,7 +91,7 @@ hr.rounded {
 }
 
 .sidebar {
-  flex: auto;
+  flex: none;
   box-shadow: 1px 0px 5px rgb(56, 56, 56);
   z-index: 9997;
   padding: 0.5%;
@@ -101,7 +101,7 @@ hr.rounded {
   height: 100vh;
   margin: auto;
   align-self: center;
-  min-width: 250px;
+  max-width: 25%;
 }
 
 .sidebar h3 {
