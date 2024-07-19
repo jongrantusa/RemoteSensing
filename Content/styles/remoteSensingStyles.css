@@ -186,17 +186,17 @@ input[type="file"] {
   cursor: pointer;
   border-radius: 8px;
   margin: 5px 0;
-  background-color: #33bb6f; /* Change background color as needed */
+  background-color: #33bb6f;
   padding-top: 2px;
   padding-left: 10px;
   color: white;
   font-size: 18px;
   align-items: center;
-  text-align: left; /* Center the text */
+  text-align: left;
 }
 
 .sidebar .csvFileInput:hover {
-  background-color: #2a9b5b; /* Darker shade for hover effect */
+  background-color: #2a9b5b;
 }
 
 .sidebar .btnSaveCSV {
@@ -207,7 +207,7 @@ input[type="file"] {
 }
 
 .sidebar .btnSaveCSV:hover {
-  background-color: #00416e; /* Darker shade for hover effect */
+  background-color: #00416e;
 }
 
 .controls {
@@ -241,6 +241,7 @@ input[type="file"] {
   box-shadow: 0 1px 1px 5px rgba(0, 0, 0, 0.3);
   display: none;
   max-width: 300px;
+  height: auto;
   overflow-wrap: break-word;
 }
 
