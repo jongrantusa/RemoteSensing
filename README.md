@@ -28,32 +28,37 @@ This project aims to provide a comprehensive platform for monitoring and analyzi
 
 ## Usage
 
-1. **Upload CSV File:**
+1. **GCP API Key:**
+
+   - In line 297 of the HTML file, input your own Google Cloud Platform (GCP) API key to enable the satellite imagery features.
+
+2. **Upload CSV File:**
 
    - Click "Upload CSV File" to upload a CSV file.
 
-2. **Filters:**
+3. **Filters:**
 
    - Select or search a vessel from the dropdown menu and click "Apply Vessel Filter" to filter the displayed data.
 
-3. **Layers:**
+4. **Layers:**
 
    - Toggle different layers (Satellite Imagery, Vessel Tracking, Carbon Sink Estimation) using the buttons in the sidebar.
 
-4. **Locations:**
+5. **Animation Controls:**
 
    - Switch between different regions (Caribbean, Mediterranean, South China Sea) using the location buttons.
 
-5. **Animation Controls:**
+6. **Animation Controls:**
 
    - Adjust the speed of animations using the speed slider.
    - View the current time in the animation using the "Current Time" field.
 
-6. **Interactive Ship Info:**
+7. **Interactive Ship Info:**
 
    - Click on a ship to view detailed information about the vessel.
 
-7. **Download Ship Report:**
+8. **Download Ship Report:**
+
    - Click "Save to CSV" to save the current data to a CSV file.
 
 ## License
