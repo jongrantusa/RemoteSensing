@@ -94,7 +94,7 @@ hr.rounded {
   height: 100vh;
   margin: auto;
   align-self: center;
-  width: 22.5%;
+  width: 450px;
 }
 
 .sidebar h3 {
@@ -233,21 +233,23 @@ input[type="file"] {
 
 .info-box {
   position: absolute;
-  bottom: 30px;
-  left: 50px;
+  bottom: 70px;
+  left: 475px;
   background-color: white;
   padding: 15px;
   border: 1px solid #ddd;
-  box-shadow: 0 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 5px #00416e;
   display: none;
   max-width: 300px;
-  height: auto;
+  max-height: 400px;
   overflow-wrap: break-word;
 }
 
 .info-box img {
   width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 
 .info-box p {
