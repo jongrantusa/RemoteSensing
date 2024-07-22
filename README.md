@@ -44,7 +44,7 @@ This project aims to provide a comprehensive platform for monitoring and analyzi
 
    - Toggle different layers (Satellite Imagery, Vessel Tracking, Carbon Sink Estimation) using the buttons in the sidebar.
 
-5. **Animation Controls:**
+5. **Locations:**
 
    - Switch between different regions (Caribbean, Mediterranean, South China Sea) using the location buttons.
 
